@@ -1,0 +1,99 @@
+@font-face{
+	src:url(../Font/roguehero.ttf);
+	font-family: 'rogue';
+}
+
+
+#deadpool-font-container{
+	position: absolute;
+    left: 10%;
+    right: 40%;
+    font-family: 'rogue';
+    font-size: 4em;
+    color: #B80101;
+    text-shadow: -1px 3px #FFF;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+#deadpool-container{
+	position: absolute;
+	top:20%;
+	left: 25%;
+	width: 450px;
+	height: 450px;
+	background-color: #B80101;
+	border:8px solid #F50000;
+	border-radius: 450px;
+}
+
+#deadpool-half-face{
+	position: absolute;
+    height: 174px;
+    top: 31%;
+    left: -15%;
+    width: 374px;
+    border-radius: 177px 175px 0 0;
+    border-bottom: 8px solid #D25050;
+    border-top:8px solid #BA3030;
+    background-color: #000;
+    transform: rotate(-90deg);
+}
+
+#deadpool-half-face-2{
+	position: absolute;
+    height: 174px;
+    top: 31%;
+    left: 33%;
+    width: 374px;
+    border-radius: 177px 175px 0 0;
+    border-bottom: 8px solid #931A1A;
+    border-top: 8px solid #D25252;
+    background-color: #000;
+    transform: rotate(90deg);
+
+}
+
+#deadpool-left-eye{
+	    position: absolute;
+    height: 113px;
+    top: 42%;
+    left: 19%;
+    width: 73px;
+    border-radius: 177px 175px;
+    background-color: #FFF;
+    transform: rotate(-25deg);
+}
+
+#deadpool-left-eye-cover{
+	position: absolute;
+    height: 131px;
+    top: -19%;
+    left: 36%;
+    width: 57px;
+    background-color: #000;
+    transform: rotate(-35deg);
+}
+
+#deadpool-right-eye{
+	position: absolute;
+    height: 113px;
+    top: 42%;
+    left: 65%;
+    width: 73px;
+    border-radius: 177px 175px;
+    background-color: #FFF;
+    transform: scaleX(-1) rotate(-25deg);
+}
+
+#deadpool-right-eye-cover{
+	position: absolute;
+    height: 131px;
+    top: -19%;
+    left: 36%;
+    width: 57px;
+    background-color: #000;
+    transform: rotate(-35deg);
+}
